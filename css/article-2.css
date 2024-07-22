@@ -1,0 +1,55 @@
+:root{
+	--font-1: "Sarina", cursive;
+	--font-2:"Outfit", sans-serif;
+	--font-color: #695a58;
+	--active-font-color:#dd9494;
+	--text-color:#443b39;
+	--bg-color:#fff7f0;
+	--bg-color-2:#e8afaf;
+	--bg-btn-color:#e8c1b5;
+    --mulish: "Mulish", sans-serif;
+}
+
+.title{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+.title h1{
+    font-family: var(--font-2);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.article{
+    background-color: var(--bg-color);
+    padding: 0px 15%;
+    width: 100%;
+    padding-bottom: 50px;
+	text-align: justify;
+	font-family: var(--font-2);
+}
+.article p{
+	font-size: .9rem;
+	width: 90%;
+}
+.article img{
+	margin: 20px 0px;
+}
+.content h1{
+	
+	font-size: 1.4rem;
+	margin-top: 40px;
+	font-weight: 800;
+	color: var(--active-font-color);
+}
+.intro{
+	text-align: justify;
+}
+.intro h1{
+	font-size: 1.4rem;
+	margin-bottom: 30px;
+	font-weight: 800;
+	text-align: left;
+}

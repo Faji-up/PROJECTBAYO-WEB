@@ -1,0 +1,64 @@
+:root{
+	--font-1: "Sarina", cursive;
+	--font-2:"Outfit", sans-serif;
+	--font-color: #695a58;
+	--active-font-color:#dd9494;
+	--text-color:#443b39;
+	--bg-color:#fff7f0;
+	--bg-color-2:#e8afaf;
+	--bg-btn-color:#e8c1b5;
+    --mulish: "Mulish", sans-serif;
+}
+
+.fashion{
+    background-color: var(--bg-color);
+    padding: 0px 11%;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+.title h1{
+    font-family: var(--font-2);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.card img{
+    width: 350px;
+}
+.contents{
+    width: 40%;
+}
+.contents p{
+    font-family: var(--font-2);
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+}
+.contents a{
+    font-family: var(--mulish);
+    font-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--active-font-color);
+    border: 4px var(--active-font-color) solid;
+    padding: 5px 5px ;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    }

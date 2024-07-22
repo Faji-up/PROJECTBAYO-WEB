@@ -1,0 +1,72 @@
+:root{
+	--font-1: "Sarina", cursive;
+	--font-2:"Outfit", sans-serif;
+	--font-color: #695a58;
+	--active-font-color:#dd9494;
+	--text-color:#443b39;
+	--bg-color:#fff7f0;
+	--bg-color-2:#e8afaf;
+	--bg-btn-color:#e8c1b5;
+    --mulish: "Mulish", sans-serif;
+}
+
+.title{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+	}
+.title h1{
+    font-family: var(--font-2);
+    font-size: 1.5rem;
+    font-weight: 600;
+	margin-bottom: 20px;
+
+}
+
+.article{
+    background-color: var(--bg-color);
+    padding: 0px 10%;
+    width: 100%;
+    padding-bottom: 50px;
+	text-align: justify;
+	font-family: var(--font-2);
+	align-items: center;
+	
+}
+.article p{
+	font-size: .9rem;
+	width: 100%;
+}
+.article img{
+	margin: 20px 0px;
+	align-items: center;
+	
+}
+.article .img2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.content-name h1{
+	color: var(--active-font-color);
+	margin-top: 30px;
+}
+.content h2{
+	
+	font-size: 1.4rem;
+	margin-top: 40px;
+	font-weight: 700;
+	color: var(--text-color);
+	margin-bottom: 20px;
+}
+
+.intro{
+	align-items: center;
+	text-align: center;
+}
+.intro p{
+	text-align: justify;
+}
+

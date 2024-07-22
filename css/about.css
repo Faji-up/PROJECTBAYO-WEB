@@ -1,0 +1,70 @@
+/* FONT */
+:root{
+	--font-1: "Sarina", cursive;
+	--font-2:"Outfit", sans-serif;
+	--font-color: #695a58;
+	--active-font-color:#dd9494;
+	--text-color:#443b39;
+	--bg-color:#fff7f0;
+	--bg-color-2:#e8afaf;
+	--bg-btn-color:#e8c1b5;
+	--mulish: "Mulish", sans-serif;
+}
+
+
+/* main */
+
+main{
+	background-color: var(--bg-color);
+	
+	padding: 30px 10%;
+}
+
+.about{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+	column-gap: 40px;
+}
+
+.profile{
+	width: 300px;
+	height: 400px;
+}
+.profile img{
+	width: 100%;
+	height: 100%;
+}
+.contents{
+	width: 65%;
+}
+
+.text{
+	margin-bottom: 20px;
+}
+.text h1{
+	margin-bottom: 20px;
+	color: var(--font-color);
+	font-family: var(--font-2);
+}
+.text h1 span{
+	color: var(--active-font-color);
+	margin-right: 10px;
+	line-height: 50px;
+	
+}
+.text p{
+	font-family: var(--mulish);
+	font-size: .9em;
+	text-align: left;
+}
+
+.doodles{
+	width: 100%;
+}
+.doodles img{
+	width: 50%;
+}
+

@@ -1,0 +1,62 @@
+:root{
+	--font-1: "Sarina", cursive;
+	--font-2:"Outfit", sans-serif;
+	--font-color: #695a58;
+	--active-font-color:#dd9494;
+	--text-color:#443b39;
+	--bg-color:#fff7f0;
+	--bg-color-2:#e8afaf;
+	--bg-btn-color:#e8c1b5;
+    --mulish: "Mulish", sans-serif;
+}
+
+.title{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 50px 30%;
+}
+.title h1{
+    font-family: var(--font-2);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.directory{
+    background-color: var(--bg-color);
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 50px;
+    padding: 50px 30%;
+}
+
+.row{
+    text-align: center;
+    font-family: var(--font-2);
+    font-weight: 800;
+    width: 220px;
+}
+.row p{
+    margin-top: 12px;
+}
+
+@media (max-width:600px) {
+    .title p{
+        font-size: .8rem;
+    }
+    .title h1{
+        font-family: var(--font-2);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+}
